@@ -1,0 +1,19 @@
+.widgetDiv {
+  /* display: flex; */
+  overflow: auto;
+  width: 600px;
+  /* height: 40px; */
+  /* overflow-x: hidden; */
+}
+p{
+    width: 1000px;
+}
+
+.n-big-on-sustainability-container{
+  background: url('../assets/image1028.png') no-repeat;
+  max-width: 1200px;
+  max-height: 648px;
+  margin: auto;
+    background-size: 100% 100%;
+ 
+}

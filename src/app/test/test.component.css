@@ -1,0 +1,44 @@
+.tallOuterContainer {
+  position: relative;
+  width: 100%;
+}
+
+.stickyInnerContainer{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  /* height: 50vh; */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.horizontalTranslateContainer{
+  position: absolute;
+  height: 100%;
+  will-change: transform;
+}
+
+.cardsContainer {
+  position: relative;
+  height: 100%;
+  padding: 0 0 0 94px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sampleCard {
+  position: relative;
+  width: 284px;
+  height: 368px;
+  background-color: #111f30;
+  margin-left: 24px;
+  flex-shrink: 0;
+}
+
+.horizontalSection{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}

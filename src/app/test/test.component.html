@@ -1,0 +1,17 @@
+<div class="horizontalSection">
+<div class="tallOuterContainer" [ngStyle]="{ height: dynamicHeight + 'px' }">
+    <div class="stickyInnerContainer" #containerRef>
+      <div class="horizontalTranslateContainer"
+        translateX={translateX}
+        #objectRef
+        [ngStyle]="{ transform: 'translateX(' + translateX + 'px)' }"
+      >
+      <div class="cardsContainer">
+        <div class="sampleCard" *ngFor="let card of cards">
+            {{card.title}}
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>

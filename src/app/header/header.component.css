@@ -1,0 +1,12 @@
+.header{
+    margin-bottom: 47px;
+    background: black;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header select{
+   margin-right: 20px;
+}
